@@ -49,7 +49,11 @@ def sum_array(nums)
 
 def add_s(words)
   words.each_with_index.collect do |word|
-    word << "s" 
+    if 
+      word == "feet" 
+      "feet"
+      else
+        word << "s" 
   end
 end
 
