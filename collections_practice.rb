@@ -47,6 +47,10 @@ def sum_array(nums)
   nums.inject  { |n, object| n + object }
  end
 
+def add_s(words)
+  [1,2].each_with_index.collect{|element, index|}
   
+  end
+end
 
     
