@@ -51,7 +51,8 @@ def add_s(words)
   words.each_with_index.collect do |word|
     if 
       word == "feet" 
-      "feet"
+      feet 
+      
       else
         word << "s" 
   end
