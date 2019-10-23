@@ -44,8 +44,8 @@ def find_a(strings)
 end
 
 def sum_array(nums)
-  array.inject  { |result_memo, object| result_memo + object }
-end
+  nums.inject  { |result_memo, object| result_memo + object }
+ end
 end
   
 
