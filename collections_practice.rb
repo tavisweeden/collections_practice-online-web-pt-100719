@@ -17,10 +17,44 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array[1], array[2] = array[2], array[1]
+  array[0], array[1], array[2] = array[0],array[2], array[1]
 
 end
 
-reverse_array(array)
-  array.sort do |a, b|
+  def reverse_array(array)
+    array.each_with_index.map do |elem, ind|
+      array[array.count-ind-1]
+    end
+end
+
+def kesha_maker(strings)
+
+  strings.each do |str|
+  str[2] = "$"
+  
+  end
+  
+end
+
+def find_a(strings)
+    strings.select do |str|
+     str[0] == "a"
+    
+  end
+end
+
+def sum_array(nums)
+  nums.inject  { |n, object| n + object }
+ end
+
+def add_s(words)
+  words.each_with_index.collect do |word|
+    if 
+      word == "feet" 
+      "feet" 
+    else
+        word << "s" 
+  end
+end
+end
     
