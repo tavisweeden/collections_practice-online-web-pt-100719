@@ -38,7 +38,7 @@ end
 
 def find_a(strings)
     strings.each do |str|
-     detect {str[0] = "a"}
+     str[0] = "a"
     
   end
 
