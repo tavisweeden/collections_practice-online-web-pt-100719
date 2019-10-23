@@ -46,7 +46,7 @@ end
 def sum_array(nums)
   nums.inject  { |n, object| n + object }
  end
-end
+
   
 
     
