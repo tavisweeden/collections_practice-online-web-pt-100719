@@ -52,10 +52,9 @@ def add_s(words)
     if 
       word == "feet" 
       "feet" 
-      
-      else
+    else
         word << "s" 
   end
 end
-
+end
     
