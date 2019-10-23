@@ -37,8 +37,8 @@ def kesha_maker(strings)
 end
 
 def find_a(strings)
-    strings.each do |str|
-     detect.str[0] = "a'"
+    strings.detect do |str|
+     str[0] = "a'"
     
   end
 
