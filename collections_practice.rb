@@ -41,7 +41,8 @@ def find_a(strings)
      str[0] == "a"
     
   end
-
 end
+
+
 
     
