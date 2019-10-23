@@ -38,7 +38,7 @@ end
 
 def find_a(strings)
     strings.detect do |str|
-     str[0] = "a'"
+     str[0] = "a"
     
   end
 
